@@ -21,7 +21,6 @@ body{
 .main_container{
   width: 400px;
   background-color: rgb(192, 220, 121);
-  display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -29,17 +28,20 @@ body{
   border-radius: 10px;
 }
 .profile_pic img{
-  display: flex;
+  display: flexbox;
   object-fit: contain;
-  max-width: 200px;
+  max-width: 60%;
   max-height: 100vh;
   border-radius: 10px;
-  
+ justify-content: center;
+ align-items: center;
+ margin-top: 30px;
+ margin-bottom: 20px;
 }
 
+
 .text_info{
-  display: flex;
-  flex-direction: column;
+  display:flex;
 }
   </style>
 </head>
@@ -51,11 +53,11 @@ body{
         <img src="andre face sep2022.jpg">
       </div>
       <div class="text_info"> 
-        <h1>
+       <p class="left"><h1>
 Hey, Everyone, I'm Andre
-  </h1>
+  </h1></p> 
 
-  <p>I'm hosted this with Github pages</p>
+  <p class="right">I'm hosting this with Github pages</p>
       </div>
  
     </div>
