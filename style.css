@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image:url(2091805.jpg);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.main_container{
+  width: 400px;
+  background-color: rgba(192, 220, 121, 0.704);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  border-radius: 25px;
+}
+.profile_pic img{
+  display: flexbox;
+  object-fit: contain;
+  max-width: 60%;
+  max-height: 100vh;
+  border-radius: 25px;
+ justify-content: center;
+ align-items: center;
+ margin-top: 30px;
+ margin-bottom: 20px;
+}
+
+
+.text_info{
+  display:flexbox;
+  margin-top: 10px;
+}
+.text{
+  display: block;
+  margin-top: 10px;
+}
+.left{
+  margin-bottom: 5px;
+}
+.skills_box{
+  background-color: rgba(255, 127, 80, 0.704);
+  padding: 20px;
+  border-radius: 0 0 20px 20px;
+  margin-top: 10px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.skills_box h1{
+  text-align: center;
+}
+.skills_box h1 li{
+  text-decoration: underline;
+}
